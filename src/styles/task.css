@@ -1,0 +1,26 @@
+.task-form, .task-controls {
+  margin: 20px 0;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task-item.high {
+  border-color: red;
+}
+
+.task-item.normal {
+  border-color: blue;
+}
+
+.task-item.low {
+  border-color: green;
+}
